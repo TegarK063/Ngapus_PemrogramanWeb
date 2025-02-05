@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+    <style>
+        p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+    <header>
+        <h1>Formulir Pendaftaran</h1>
+    </header>
+    <hr>
+    <div>
+        <label for="PKuliah">Program Kuliah</label>
+        <label for="PStudy">Program Study</label>
+        <br>
+        <select name="PKuliah" id="">
+            <option value="">Pilih Program</option>
+            <option value="">JTIK</option>
+            <option value="">Agroindustri</option>
+            <option value="">Mesin</option>
+            <option value="">Keperawatan</option>
+        </select>
+
+        <select name="PStudy" id="">
+            <option value="">Pilih Program Study</option>
+            <option value="">Sistem Informasi</option>
+            <option value="">Teknologi Rekayasa Perangkat Lunak</option>
+        </select>
+        <p>*wajib di isi</p>
+        <hr>
+    </div>
+    <section>
+        <h1>Biodata</h1>
+
+    </section>
+    <section>
+        <label for="Nama">Nama Lengkap</label>
+        <label for="Gender">Jenis Kelamin</label>
+        <label for="Lahir">Tempat Lahir</label>
+        <br>
+        <input type="text" placeholder="Nama Lengkap Anda" id="Nama" name="Nama">
+
+        <select name="Gender" id="Gender">
+            <option value="">Pilih Jenis Kelamin</option>
+            <option value="">Laki-Laki</option>
+            <option value="">Perempuan</option>
+        </select>
+
+        <input type="text" placeholder="Tempat Kelahran" id="Lahir" name="Lahir">
+        <p>*wajib di isi</p>
+    </section>
+    <section>
+        <label for="tgl">Tanggal Lahir</label>
+        <label for="agama">Agama</label>
+        <label for="school">Sekolah</label>
+        <br>
+        <input type="date" id="tgl" name="tgl">
+
+        <select name="agama" id="agama">
+            <option value="">Pilih Agama</option>
+            <option value="">Islam</option>
+            <option value="">Kristen</option>
+            <option value="">Budha</option>
+            <option value="">Hindu</option>
+            <option value="">Konghuchu</option>
+        </select>
+
+        <select name="school" id="school">
+            <option value="">SMA</option>
+            <option value="">MTS</option>
+        </select>
+        <p>*wajib di isi</p>
+    </section>
+    <hr>
+    <section>
+        <button>Simpan</button>
+    </section>
+    <br>
+    <section>
+        <button>Batal</button>
+    </section>
+</form>
+</body>
+</html>
